@@ -1,0 +1,220 @@
+/*************MAIN***************/
+
+h2{
+	font-family: "open sans",sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin:20px 0;
+	padding:20px 0;
+}
+
+p{
+	font-family: "open sans",sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	margin:0;
+}
+main{
+	overflow: hidden;
+}
+h4{
+	font-family: "open sans",sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 18px;
+	margin:10px 0;
+
+}
+
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+/*************HOME***************/
+
+.t1{
+	margin-left:100px;
+	float:left;
+	width:40%;
+	display:inline;
+	text-align: right;
+}
+.t2{
+	margin-right:100px;
+	float:right;
+	width:40%;
+	display:inline;
+}
+
+/*************Aboutus***************/
+
+#photoabout{
+	width:400px;
+	display:block;
+	float:right;
+	padding: 0;
+	padding-right:200px;
+
+}
+
+.textabout{
+	float:left;
+	width:400px;
+	text-align:right;
+	padding-right:0;
+	margin-left:200px;
+	padding-top:20px;
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	padding-bottom:20px;
+}
+
+/*************CONTACT***************/
+
+.containercontact input[type=text],.containercontact select,.containercontact textarea {
+	width:100%;
+    display:block;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    font-family: "open sans",sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+label{
+	font-family: "open sans",sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration:none;
+    font-family: "open sans",sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 12px;
+
+}
+.button:hover{
+	background-color: #FF8C00;
+}
+
+.containercontact{
+	margin: 0 auto ;
+	width: 40%;
+}
+
+/*************BROWSEBOOKS***************/
+
+th{
+	font-family: "open sans",sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 18px;
+	margin:10px 0;
+}
+table{
+	margin: 50px auto ;
+	width: 50%;
+	margin-left:360px;
+}
+td{
+	font-family: "open sans",sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	margin:0;
+
+}
+td a{
+	background-color: orange;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+td a:hover{
+	background-color: #FF8C00;
+	color:white;
+}
+
+.containersearch input[type=text], .containersearch select,.containersearch textarea {
+	width:40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    font-family: "open sans",sans-serif;
+	font-weight: 300;
+	
+}
+.containersearch{
+	margin: 0 auto ;
+	width: 40%;
+}
+
+
+/*************MYBOOKS***************/
+h5{
+	display:inline;
+	line-height: 42px;
+	font-family: "open sans",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 14px;
+}
+.mybooks ul li {
+	display:inline;
+	width:200px;
+
+	border-right:solid 1px #eeeeee;
+	padding:100px;
+}
+.mybooks ul {
+	display:inline;
+}
+.mybooks p{
+	display:inline-block;
+
+}
+.mybooks {
+	margin:0 40px ;
+	overflow: hidden;
+	border-top:solid 1px #eeeeee;
+}
+.mybooks .button{
+	float:right;
+	padding: 9px 20px;
+	margin-top:5px;
+
+
+}
+/*************GALLERY***************/
+.bilder{
+	margin:auto;
+	display:block;
+	text-align: center;
+	width:90%;
+
+
+}
+.bild{
+	width:40%;
+	box-sizing: border-box;
+	display:inline;
+}
