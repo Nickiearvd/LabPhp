@@ -91,7 +91,7 @@
 					$stmt->execute();
 
 					echo '<table bgcolor=white cellpadding="6">';
-					echo '<tr><b><th>ID</th><th>Title</th> <th>Author</th> <th>Reserved ? </th> <th>Reserve</th> </b> </tr>';
+					echo '<tr><b><th>ID</th><th>Title</th> <th>Author</th> <th>Reserved ? </th> </b> </tr>';
 					while ($stmt->fetch()) {
 						if($onloan == 0 )
 							$onloan = "No";
@@ -99,7 +99,6 @@
 
 					    echo "<tr>";
 					    echo "<td> $bookid </td><td> $title </td><td> $author </td><td> $onloan </td>";
-					    echo '<td><a href="reservebook.php?bookid=' . urlencode($bookid) . '"> Reserve </a></td>';
 					    echo "</tr>";
 					}
 					echo "</table>";

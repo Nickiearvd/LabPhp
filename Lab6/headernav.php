@@ -1,3 +1,5 @@
+<?php include "logincheck.php";?>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 <section id= "header">
 	<h1>BookABook</h1>
 </section>
@@ -6,9 +8,9 @@
 		<li><a class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : NULL ?>" href="index.php"> Home</a></li>
 		<li><a class="<?php echo $current_page == 'aboutus.php' ? 'active' : NULL ?>" href="aboutus.php">About us</a></li>
 		<li><a class="<?php echo $current_page == 'browsebooks.php' ? 'active' : NULL ?>" href="browsebooks.php">Browse books</a></li>
-		<li><a class="<?php echo $current_page == 'mybooks.php' ? 'active' : NULL ?>" href="mybooks.php">My books</a></li>
 		<li><a class="<?php echo $current_page == 'gallery.php' ? 'active' : NULL ?>" href="gallery.php">Gallery</a></li>
 		<li><a class="<?php echo $current_page == 'contact.php' ? 'active' : NULL ?>" href="contact.php">Contact</a></li>
+		<li><a class="<?php echo $current_page == 'main_login.php' ? 'active' : NULL ?>" href="main_login.php">Login</a></li>
 	</ul>
 </nav>
 

@@ -14,9 +14,6 @@
 		</header>
 		<main>
 			<h2>GALLERY</h2>
-			<a class="button" href=login.php>Upload a image </a>
-	</head>
-
 			<body>
 
 			<div class="bilder">

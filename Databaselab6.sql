@@ -2,22 +2,22 @@
 -- version 4.7.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Oct 23, 2017 at 03:06 PM
--- Server version: 5.6.35
--- PHP Version: 7.1.6
+-- Värd: localhost
+-- Tid vid skapande: 12 dec 2017 kl 10:06
+-- Serverversion: 5.6.35
+-- PHP-version: 7.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Database: `library`
+-- Databas: `library`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `books`
+-- Tabellstruktur `books`
 --
 
 CREATE TABLE `books` (
@@ -28,19 +28,22 @@ CREATE TABLE `books` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `books`
+-- Dumpning av Data i tabell `books`
 --
 
 INSERT INTO `books` (`bookid`, `title`, `author`, `onloan`) VALUES
 (1, 'Wordpress for you', 'Johan Kohlin', 1),
 (2, 'PHP the easy way', 'John Bauer', 1),
 (3, 'The big bad wolf', 'R. K. Rowling', 1),
-(4, 'No Idea', 'Nolan Ideos', 0);
+(7, 'aa', 'BBb', 1),
+(10, 'niiii', 'bla', 1),
+(11, 'dwdwd', 'dwdw', 0),
+(16, 'ssss', 'ssss', 0);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Userinfo`
+-- Tabellstruktur `Userinfo`
 --
 
 CREATE TABLE `Userinfo` (
@@ -50,40 +53,41 @@ CREATE TABLE `Userinfo` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `Userinfo`
+-- Dumpning av Data i tabell `Userinfo`
 --
 
 INSERT INTO `Userinfo` (`Userid`, `Username`, `Userpass`) VALUES
 (2, 'Nickie', 'd1b8e8a83c59affeb026d1f247ddd627fc760b0c'),
-(3, 'Anna', '91c98db1b1ec11c8527417afeb755d8d93694cae');
+(3, 'Anna', '91c98db1b1ec11c8527417afeb755d8d93694cae'),
+(5, 'Nickie', '7810fd5cb38665db76a86d08f5444c3c9c864cff');
 
 --
--- Indexes for dumped tables
+-- Index för dumpade tabeller
 --
 
 --
--- Indexes for table `books`
+-- Index för tabell `books`
 --
 ALTER TABLE `books`
   ADD PRIMARY KEY (`bookid`);
 
 --
--- Indexes for table `Userinfo`
+-- Index för tabell `Userinfo`
 --
 ALTER TABLE `Userinfo`
   ADD PRIMARY KEY (`Userid`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT för dumpade tabeller
 --
 
 --
--- AUTO_INCREMENT for table `books`
+-- AUTO_INCREMENT för tabell `books`
 --
 ALTER TABLE `books`
-  MODIFY `bookid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `bookid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
--- AUTO_INCREMENT for table `Userinfo`
+-- AUTO_INCREMENT för tabell `Userinfo`
 --
 ALTER TABLE `Userinfo`
-  MODIFY `Userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `Userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;

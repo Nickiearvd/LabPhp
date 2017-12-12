@@ -24,8 +24,7 @@ $bookid = addslashes($bookid);
     $stmt->bind_param('i', $bookid);
     $stmt->execute();
     printf("<br>Succesfully returned!");
-    printf("<br><a href=browsebooks.php>Search and Book more Books </a>");
-    printf("<br><a href=mybooks.php>Return to My Books </a>");
+    printf("<br><a href=backend/adminbrowsebooks.php>Search and Book more Books </a>");
     printf("<br><a href=index.php>Return to home page </a>");
     exit;
 
